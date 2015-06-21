@@ -1,7 +1,7 @@
 public class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int[] opt = new int[triangle.get(triangle.size()-1).size()];
-        Arrays.fill(opt, 0);
+        Arrays.fill(opt, 0)
         int[] opt_temp = Arrays.copyOfRange(opt, 0, opt.length);
         for (int i = 0; i < triangle.size(); i++) {
             for (int j = 0; j < triangle.get(i).size(); j++) {
